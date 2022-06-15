@@ -7,9 +7,9 @@ body{
 }
 
 main{
-    margin-left: 300px;
+    margin-left: 280px;
     margin-right: 250px;
-    padding: 280px;
+    padding: 300px;
     display: grid;
     gap: 0.5em;
     grid-template-areas:

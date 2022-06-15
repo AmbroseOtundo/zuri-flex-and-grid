@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-left: 800px;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+}
+body{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    height: 100%;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(252, 252, 252);
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: white; }
+
+.sedan{
+
+    height: 500px;
+    width: 300px;
+    background-color:hsl(31, 77%, 52%);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    padding-left: 20px;
+}
+
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
+}
+
+img{
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.hed{
+    font-size: x-large;
+    margin: 40px;
+    margin-left: 10px;
+    font-display: 'Big Shoulders Display' ;
+}
+
+button{
+    margin-top: 80px;
+    margin-left: 20px;
+    height: 35px;
+    width: 120px;
+    border-radius: 15px;
+    border-color: white;
+    cursor:pointer;
+    border-spacing: 6px;
+
+}
+
+.suv button:hover{
+   background-color:hsl(184, 100%, 22%) ;
+   color: white;
+}
+.sedan button:hover{
+   background-color:hsl(31, 77%, 52%) ;
+   color: white;
+}
+.luxury button:hover{
+   background-color:hsl(179, 100%, 13%) ;
+   color: white;
+}
